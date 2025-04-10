@@ -1,0 +1,108 @@
+/* Login.css */
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.login-container {
+  background-image: url('/img/pxfuel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Numans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form div.input-group{
+  margin: 25px 0 25px 0;
+}
+
+
+form input.form-control{
+  position: relative;
+  left: -5px;
+}
+
+.login-card {
+  height: 370px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.login-card-header h3 {
+  color: white;
+  text-align: center;
+}
+
+.social-icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social-icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border: 0 !important;
+  height: 100%;
+}
+
+.input-group-prepend span i {
+  color: black;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login-btn {
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  color: #FFC312;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
