@@ -5,6 +5,12 @@ Wasfati is a web application for managing and sharing recipes. It includes a Spr
 
 ---
 
+
+https://github.com/user-attachments/assets/7ce349c9-a1df-4180-9abe-f959b27386ab
+
+
+---
+
 ## Backend (Spring Boot)
 
 ### Entities
